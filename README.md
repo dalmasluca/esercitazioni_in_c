@@ -1,4 +1,4 @@
-# Laboratori - Presentazione veloce
+# Presentazione veloce
 
 Questo repository contiene gli appunti e gli esercizi dei laboratori di programmazione in C. Qui trovi una panoramica sintetica e link diretti ai due file principali della cartella `laboratori`:
 
