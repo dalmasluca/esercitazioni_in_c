@@ -4,6 +4,7 @@ Questo repository contiene gli appunti e gli esercizi dei laboratori di programm
 
 - [02 - operatori di confronto e logici, selezione (if)](02.md)
 - [03 - for](03.md)
+- [04 - char, stringhe, cicli annidati](04.md)
 
 Scopo di questo README: presentare brevemente il contenuto di `02.md` e `03.md`, spiegare come usare gli esercizi e fornire suggerimenti rapidi per compilare, testare e modificare i sorgenti.
 
@@ -28,6 +29,13 @@ Contenuto essenziale:
 - Molti esercizi pratici per imparare a progettare loop che calcolano risultati, ripetono operazioni e compongono sottoproblemi.
 - Esempi pratici: generazione di numeri casuali (`random.c`), calcoli con loop annidati, problemi classici (Euclide, massimo, somma cifre, conversioni).
 - Anche qui le istruzioni di consegna online sono state neutralizzate; i sorgenti sono pensati per essere compilati e testati localmente.
+
+### 04 - char, stringhe, cicli annidati (`04.md`)
+Contenuto essenziale:
+- Manipolazione di `char` e stringhe in C, uso di funzioni da `<ctype.h>` e lettura robusta di caratteri (`scanf(" %c", &c)`).
+- Esercizi su analisi e trasformazione di stringhe, cifrari semplici (es. Cesare), conteggi e cicli annidati.
+- Esempi e file consigliati: `stringaChar.c`, `cesare.c`, `max_somma_cifre.c`, `num_sequenze.c`.
+- Scopo: imparare a gestire sequenze di caratteri, combinare operazioni su stringhe e progettare cicli annidati efficaci per problemi reali.
 
 ---
 
@@ -67,15 +75,3 @@ Per trovare rapidamente esercizi o simboli:
 # esempio: cercare la parola 'bisestile' nei file della cartella current
 grep -n \"bisestile\" *.md *.c
 ```
-
----
-
-## Note finali
-
-- I file `02.md` e `03.md` sono pensati come dispense di esercizi: leggi le specifiche, progetta la soluzione prima di implementare, poi testa con casi rappresentativi.
-- Se vuoi, posso generare:
-  - un sommario automatico più dettagliato per ciascun file;
-  - script di test di esempio (Makefile o piccoli script shell) per automatizzare compilazione e test;
-  - versioni base di alcuni esercizi (scheletri in C) per partire più velocemente.
-
-Buon lavoro! Se preferisci il README in inglese o vuoi aggiungere link ad altri file (ad es. `04.md`, `01.md`), dimmi quali e lo aggiorno.
