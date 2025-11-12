@@ -1,12 +1,13 @@
 # Presentazione veloce
 
-Questo repository contiene gli appunti e gli esercizi dei laboratori di programmazione in C. Qui trovi una panoramica sintetica e link diretti ai due file principali della cartella `laboratori`:
+Questo repository contiene gli appunti e gli esercizi dei laboratori di programmazione in C. Qui trovi una panoramica sintetica e link diretti ai file principali della cartella `laboratori`:
 
 - [02 - operatori di confronto e logici, selezione (if)](02.md)
 - [03 - for](03.md)
 - [04 - char, stringhe, cicli annidati](04.md)
+- [05 - switch e funzioni](05.md)
 
-Scopo di questo README: presentare brevemente il contenuto di `02.md` e `03.md`, spiegare come usare gli esercizi e fornire suggerimenti rapidi per compilare, testare e modificare i sorgenti.
+Scopo di questo README: presentare brevemente il contenuto dei file principali, spiegare come usare gli esercizi e fornire suggerimenti rapidi per compilare, testare e modificare i sorgenti.
 
 ---
 
@@ -36,6 +37,15 @@ Contenuto essenziale:
 - Esercizi su analisi e trasformazione di stringhe, cifrari semplici (es. Cesare), conteggi e cicli annidati.
 - Esempi e file consigliati: `stringaChar.c`, `cesare.c`, `max_somma_cifre.c`, `num_sequenze.c`.
 - Scopo: imparare a gestire sequenze di caratteri, combinare operazioni su stringhe e progettare cicli annidati efficaci per problemi reali.
+
+### 05 - switch e funzioni (`05.md`)
+Contenuto essenziale:
+- Introduzione al costrutto `switch` per gestire selezioni multiple in modo più leggibile rispetto a catene di `if-else`.
+- Definizione e uso di funzioni in C: passaggio di parametri per valore e per riferimento, restituzione di valori.
+- Uso delle librerie standard `<string.h>` e `<stdlib.h>`: funzioni per manipolare stringhe (`strlen`, `strcmp`, `strcpy`, `strcat`, `strstr`, `strchr`) e per conversioni (`atoi`, `atol`, `atof`).
+- Esercizi pratici: `usaStandard.c` (uso delle librerie standard), `funzioni.c`, `operazioni.c`, `giorni_mese.c`, `briscola.c`, `stampaRiquadro.c`, `quanteDoppie.c`.
+- Esercizi supplementari di ripasso su iterazione e composizione: `primo_multiplo.c`, `prime_vocali.c`, `min_lessicografica.c`, `ascending.c`.
+- Scopo: imparare a strutturare il codice in funzioni riutilizzabili, usare il `switch` efficacemente e padroneggiare le funzioni delle librerie standard per stringhe e conversioni.
 
 ---
 
